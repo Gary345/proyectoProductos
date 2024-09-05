@@ -8,7 +8,7 @@ function getData() {
     promesa.then((response) =>{
         response.json().then(
             (data)=>{
-                console.log(data);
+                //console.log(data);
                 createCards(data);
 
             }).catch((err)=>console.log("Existió un problema con la solicitud",err));})
@@ -18,7 +18,7 @@ function getData() {
 }//getData
 
 function createCards(products) {
-    console.log(products.length);
+    //console.log(products.length);
     //crear una crad por cada producto con sus datos esenciales
     //de preferencia foreach: name,description, image, price
    products.forEach(element=> {
