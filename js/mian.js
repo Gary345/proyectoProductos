@@ -30,7 +30,7 @@ function createCards(products) {
                   <p class="card-text" id="description">${element.description}</p>
                 </div>
                 <ul class="list-group list-group-flush" style="list-style: none;">
-                  <li class="item1" id="precio" >$ Precio: ${element.price}</li>
+                  <li class="item1" id="precio" >Precio: ${element.price} $</li>
                   <li class="item2">Marca: ${element.brand}</li>
                 </ul>
               </div>
